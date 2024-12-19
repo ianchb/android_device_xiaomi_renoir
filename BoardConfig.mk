@@ -29,6 +29,7 @@ BOOT_KERNEL_MODULES := \
     msm_drm.ko \
     q6_notifier_dlkm.ko \
     q6_pdr_dlkm.ko \
+    qti_battery_charger_main.ko \
     snd_event_dlkm.ko \
     xiaomi_touch.ko
 BOARD_VENDOR_RAMDISK_RECOVERY_KERNEL_MODULES_LOAD := $(BOOT_KERNEL_MODULES)

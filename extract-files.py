@@ -47,6 +47,10 @@ blob_fixups: blob_fixups_user_type = {
         .clear_symbol_version('AHardwareBuffer_unlock'),
     'vendor/lib64/libanc_dc_plugin_xiaomi_v2.so': blob_fixup()
         .add_needed('libc++_shared.so'),
+    'vendor/lib/hw/audio.primary.lahaina.so': blob_fixup()
+        .replace_needed('libaudioroute.so', 'libaudioroute-v34.so'),
+    'vendor/lib/libaudioroute_ext.so': blob_fixup()
+        .replace_needed('libaudioroute.so', 'libaudioroute-v34.so'),
     'vendor/lib64/libarcsoft_hdrplus_hvx_stub.so': blob_fixup()
         .clear_symbol_version('remote_handle_close')
         .clear_symbol_version('remote_handle_invoke')

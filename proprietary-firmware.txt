@@ -1,5 +1,5 @@
 ## All proprietary files from this list, unless pinned and noted otherwise,
-## are from renoir MIUI V14.0.7.0.TKIMIXM
+## are from renoir MIUI V14.0.12.0.TKICNXM
 
 abl.img;AB
 aop.img;AB

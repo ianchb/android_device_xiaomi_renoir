@@ -10,6 +10,8 @@ $(call inherit-product, device/xiaomi/renoir/device.mk)
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
+DERPFEST_BUILD_TYPE := Community
+
 PRODUCT_BRAND := Xiaomi
 PRODUCT_DEVICE := renoir
 PRODUCT_MANUFACTURER := Xiaomi

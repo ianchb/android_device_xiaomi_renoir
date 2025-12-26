@@ -19,8 +19,8 @@ PRODUCT_MODEL := M2101K9C
 PRODUCT_NAME := lineage_renoir
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    BuildDesc="renoir-user 13 TKQ1.220829.002 V14.0.12.0.TKICNXM release-keys" \
-    BuildFingerprint=Xiaomi/renoir/renoir:13/TKQ1.220829.002/V14.0.12.0.TKICNXM:user/release-keys \
+    BuildDesc="renoir-user 13 TKQ1.220829.002 V14.0.16.0.TKICNXM release-keys" \
+    BuildFingerprint=Xiaomi/renoir/renoir:13/TKQ1.220829.002/V14.0.16.0.TKICNXM:user/release-keys \
     DeviceProduct=renoir \
     SystemName=renoir
 
